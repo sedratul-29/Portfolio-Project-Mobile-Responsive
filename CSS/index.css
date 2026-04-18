@@ -1,0 +1,259 @@
+/* shared style */
+
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* universal style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* main style */
+
+header {
+    background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding-top: 50px;
+}
+
+header nav {
+    width: 71.25%;
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    font-size: 45px;
+    font-weight: 800px;
+    width: 121px;
+    height: 61px;
+}
+
+.logo-color {
+    color: #FD6E0A;
+}
+
+
+header nav ul {
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #474747;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18.28px 35px 19.3px 36px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* module 5.4 */
+
+#banner {
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-content h2 {
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
+
+}
+
+#about {
+    padding-top: 130px;
+}
+
+#about .about-container {
+    max-width: 1140px;
+    width: 71.25%;
+    padding: 131px 157px 131px 156px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #181818;
+}
+
+.section-heading p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info p {
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-info h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+
+#skills {
+    padding-top: 130px;
+}
+
+.skills-container {
+    max-width: 1140px;
+    width: 71.25%;
+    margin: 0 auto;
+}
+
+.skill-info{
+    display: flex;
+    gap:24px;
+    margin-top: 50px;
+}
+
+.skill-info .skill-card{
+    max-width: 267px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 30px 33px 30px 30px;
+    box-shadow: 0px 6px 50px 0px #00000024;
+}
+
+.skill-info .skill-card img{
+    max-width: 44px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.skill-info .skill-card h3{
+    max-width: 174px;
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-info .skill-card p{
+    max-width: 201px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+#resume{
+    padding-top: 130px;
+}
+
+.resume-container{
+    display: flex;
+    margin: 113px auto 0px;
+    max-width: 1140px;
+    width: 71.25%;
+    gap: 24px;
+}
+
+.resume-container h3{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-container .education-info-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-container .education-info-card h4{
+    color: #474747;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.resume-container .education-info-card .a{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight:600;
+}
+
+.resume-container .education-info-card .b{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+hr{
+    margin: 30px 0px;
+}
+
+.center{
+    text-align: center;
+    margin-top: 69px;
+}
